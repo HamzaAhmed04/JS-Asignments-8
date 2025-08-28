@@ -89,24 +89,27 @@
 // var num2 = num1.toString()
 // console.log(num2.replace(".", ""))
 
-// Q 13
+// Q 13 
 
-var username = prompt("Enter your username:");
+// I dont understand this question, like what we have to do..
 
-var valid = true;
+// // Q 14
 
-for (var i = 0; i < username.length; i++) {
-    var charCode = username.charCodeAt(i);
+// var a = ["cake", "brownie", "cookie", "gulab jaman", "Huzaifa Bhai"];
+// var userInput = prompt("What sweet you want").toLowerCase();
+// var flag = false;
 
+// for (var i = 0; i < a.length; i++) {
+//     if (userInput == a[i].toLowerCase()) {
+//         flag = true
+//         document.writeln(userInput + (" is available at index: " + i))
+//         break
+//     }
+// }
 
-    if (charCode === 33 || charCode === 44 || charCode === 46 || charCode === 64) {
-        valid = false;
-        break;
-    }
-}
+// if (!flag) {
+//     document.writeln(userInput + " is not available in our store")
+// }
 
-if (!valid) {
-    alert("Please enter a valid username without @ . , !");
-} else {
-    alert("Valid username: " + username);
-}
+// Q 15
+
