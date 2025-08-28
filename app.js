@@ -113,3 +113,29 @@
 
 // Q 15
 
+// I dont understand this question, like what we have to do..
+
+// // Q 16
+
+// var university = "University of Karachi";
+// var arr = university.split(""); 
+
+// for (var i = 0; i < arr.length; i++) {
+//     document.writeln(arr[i] + "<br>");
+// }
+
+// // Q 17
+
+// var userInput = prompt("Enter your word");
+// var res = userInput.length;
+
+// document.writeln(
+//   "User input: " + userInput + "<br>Last character of input: " + userInput.charAt(res - 1)
+// );
+
+// Q 18
+
+// var para = "The quick brown fox jumps over the lazy dog";
+// var res = para.toLowerCase().match(/the/g).length;
+
+// document.writeln(para + "<br>" + "There are " + res + " occurrence(s) of word 'the'");
